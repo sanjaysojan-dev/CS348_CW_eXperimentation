@@ -23,8 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2b35792-253a-41a0-8b1a-b1bbdb222249" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Pokemon.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Pokemon.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Trainer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/PokemonFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/PokemonFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_03_100123_create_pokemon_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_03_100123_create_pokemon_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +193,7 @@
       <updated>1604339989924</updated>
       <workItem from="1604339991117" duration="1119000" />
       <workItem from="1604393196357" duration="35000" />
-      <workItem from="1604393424418" duration="12971000" />
+      <workItem from="1604393424418" duration="19746000" />
     </task>
     <servers />
   </component>

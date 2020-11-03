@@ -19,6 +19,11 @@ class CreatePokemonTable extends Migration
             $table->integer('HP');
             $table->string('type');
             $table->timestamps();
+
+            $table->bigInteger('trainer_id')->unsigned();
+            $table->foreign('trainer_id')->references('id')->on('trainers')
+                ->cascadeOnUpdate('cascade')
+                ->cascadeOnDelete('cascade');
         });
     }
 
