@@ -15,7 +15,7 @@ class TrainerTableSeeder extends Seeder
     public function run()
     {
         Trainer::factory()
-            ->times(50)
+            ->times(10)
             ->create();
     }
 }

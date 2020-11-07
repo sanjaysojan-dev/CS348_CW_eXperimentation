@@ -14,8 +14,16 @@ class CreateToDosTable extends Migration
     public function up()
     {
         Schema::create('to_dos', function (Blueprint $table) {
-            $table->id();
+            $table->id('id');
+            $table->char('title',100);
+            $table->longText('description');
+            $table->boolean('completed');
             $table->timestamps();
+
+            $table->unsignedBigInteger('board_id');
+            $table->foreign('board_id')->references('id')->on('boards')
+                ->cascadeOnUpdate('cascade')
+                ->cascadeOnDelete('cascade');
         });
     }
 

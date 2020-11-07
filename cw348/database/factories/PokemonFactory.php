@@ -23,7 +23,7 @@ class PokemonFactory extends Factory
     public function definition()
     {
         return [
-            'name' => $this->faker->firstName,
+            'name' => $this->faker->firstName->unique(),
             'HP' => $this->faker->numberBetween(10,100),
             'Type' => $this->faker->randomElement(['fire','water','grass']),
             'trainer_id'=>Trainer::inRandomOrder()->first()->id
